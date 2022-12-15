@@ -100,7 +100,7 @@
         <div class="swiper-container hero-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-            <div class="hero-area hero-slide" style="background-image:url(img/hero/women.jpg);">
+            <div class="hero-area hero-slide" style="background-image:{% static 'img/hero/women.jpg' %};">
               <div class="overlay overlay-5"></div>
               <div class="container">
                   <div class="row full-height align-items-center text-center">
@@ -120,7 +120,7 @@
             <!--End single slide -->
 
             <div class="swiper-slide">
-            <div class="hero-area hero-slide" style="background-image:url(img/hero/homeless.jpg);">
+            <div class="hero-area hero-slide" style="background-image:{% static 'img/hero/homeless.jpg' %};">
               <div class="overlay overlay-5"></div>
               <div class="container">
                   <div class="row full-height align-items-center text-center">
@@ -140,7 +140,7 @@
           <!--End single slide -->
 
           <div class="swiper-slide">
-            <div class="hero-area hero-slide" style="background-image:url(img/hero/relefe.jpg);">
+            <div class="hero-area hero-slide" style="background-image:{% static 'img/hero/relefe.jpg' %};">
               <div class="overlay overlay-5"></div>
               <div class="container">
                   <div class="row full-height align-items-center text-center">
@@ -172,7 +172,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-6 col-sm-12 col-xs-12 align-self-center">
-                  <img class="img-responsive" src="img/about-us.jpg" alt="Helping hands">
+                  <img class="img-responsive" src={% static 'img/about-us.jpg' %} alt="Helping hands">
                </div>
                <div class="col-md-6 col-sm-12 col-xs-12 align-self-center">
                   <div class="about-box diffuse-shadow p-45px sm-p-25px bg-white">
@@ -187,7 +187,7 @@
       </section>
       <!-- ========== About End ========== -->
       <!-- Video Section Start -->
-      <section class="p-100px-tb overlay overlay-6 parallax" style="background-image:url(img/bg/video-promo.jpeg)">
+      <section class="p-100px-tb overlay overlay-6 parallax" src={% static 'img/bg/video-promo.jpeg' %}>
          <div class="container">
             <div class="row">
                <div class="col-sm-8 offset-sm-2 text-center promo-video">
@@ -545,7 +545,7 @@
                      <div class="each-box col-lg-4 col-md-6 col-sm-12 gallery-box charity">
                         <div class="inner gray-bg text-center">
                            <div class="box-hover">
-                              <img src="img/gallery/1.jpg" alt="Helping by charity" class="img-responsive">
+                              <img src={% static 'img/gallery/1.jpg' %} alt="Helping by charity" class="img-responsive">
                               <div class="mask">
                                  <div class="mask-inner">
                                     <h3 class="title">Helping by charity</h3>
@@ -563,7 +563,7 @@
                      <div class="each-box col-lg-4 col-md-6 col-sm-12 gallery-box children">
                         <div class="inner gray-bg text-center">
                            <div class="box-hover">
-                              <img src="img/gallery/2.jpg" alt="Help for child" class="img-responsive">
+                              <img src={% static 'img/gallery/2.jpg' %} alt="Help for child" class="img-responsive">
                               <div class="mask">
                                  <div class="mask-inner">
                                     <h3 class="title">Helping for child</h3>
